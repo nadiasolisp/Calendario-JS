@@ -9,8 +9,8 @@ const esLaborable = () => {
 
     
     const weekday = date.getDay();
-    let isWorkday;
     let dayName;
+    let isWorkday;
 
     switch(weekday) {
         case 1:
@@ -36,6 +36,7 @@ const esLaborable = () => {
         case 6:
             dayName = 'Sábado';
             isWorkday = false;
+            break;
         case 7:
             dayName = 'Domingo';
             isWorkday = false;
