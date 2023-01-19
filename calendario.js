@@ -37,7 +37,7 @@ const esLaborable = () => {
             dayName = 'Sábado';
             isWorkday = false;
             break;
-        case 7:
+        case 0:
             dayName = 'Domingo';
             isWorkday = false;
             break;
@@ -48,3 +48,5 @@ const esLaborable = () => {
 
     displayResult.innerHTML = `${dayName}, ${isWorkday ? 'día laborable' : 'día no laborable'}`;
 }
+
+
